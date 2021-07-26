@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+#background{
+    background: url('../Page/background.jpg') no-repeat center top;
+    padding: 90px;
+    background-size: cover;
+}
+
+.logo{
+    margin-bottom: 50px;
+}
+
+.logo img{
+    max-width: 180px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.bottom{
+    overflow: hidden;
+    margin: 0 auto;
+    border-top: solid 4px #c9482f;
+}
+
+.vantagens{
+    overflow: hidden;
+    margin-right: 300px;
+
+}
+
+.vantagens div{
+    float: right;
+    width: 33%;
+    box-sizing: border-box;
+}
+
+.vantagens img{
+    display: block;
+    margin: 0 auto;
+}
+
+.vantagens p{
+    text-align: center;
+    color:azure;
+}

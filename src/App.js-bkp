@@ -1,0 +1,17 @@
+import React from "react";
+//import Product from "./Page/Product";
+import Client from "./Page/Client";
+//import { CollectionProvider } from "./ContextFile/useContext";
+import { CollectionProvider } from "./ContextFile/useContextClient";
+
+const App = () => {
+  return (
+    
+    <CollectionProvider>
+    <div className="container">
+      <Client />
+    </div>
+  </CollectionProvider>
+  );
+};
+export default App;
